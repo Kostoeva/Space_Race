@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\StarField.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\readme.txt">
     <Files>
-      <File FileName="Assets\Scripts\StarField.cs" Line="30" Column="30" />
+      <File FileName="Assets\Scripts\StarField.cs" Line="1" Column="1" />
+      <File FileName="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\readme.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
