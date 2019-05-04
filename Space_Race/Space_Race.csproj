@@ -250,6 +250,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Space_Race.Plugins.csproj">
+      <Project>{F48FE010-992B-AB21-9D48-35E95B293EB1}</Project>
+      <Name>Space_Race.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Outside_Resources\MagicParticlesLite\Script.cs" />
     <Compile Include="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\script\skyboxspace_demo_v1.cs" />
     <Compile Include="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\script\skyboxspace_mouselook_v1.cs" />
@@ -260,6 +266,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\readme.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\sources.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
