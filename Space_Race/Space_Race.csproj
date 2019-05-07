@@ -264,6 +264,7 @@
     <Compile Include="Assets\Scripts\ScrollText.cs" />
     <Compile Include="Assets\Scripts\SputnikOnTrigger.cs" />
     <Compile Include="Assets\Scripts\StarField.cs" />
+    <Compile Include="Assets\Scripts\WriteTextOnGUI.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Fader.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Scripts\Initiate.cs" />

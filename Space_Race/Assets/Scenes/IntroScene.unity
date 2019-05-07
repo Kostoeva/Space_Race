@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: MainScene
-  loadToColor: {r: 1, g: 1, b: 1, a: 1}
+  loadToColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &492989644
 GameObject:
   m_ObjectHideFlags: 0
