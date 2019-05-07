@@ -5,15 +5,30 @@ using UnityEngine.UI;
 
 public class SputnikOnTrigger : MonoBehaviour {
 
-    public GameObject textObject;
-    public Text HUDText;
+    public Text HUDtext;
+    public Text inputText;
 
-	// Use this for initialization
-	void Start () {
-        textObject.SetActive(false);
-	}
-	
-	void OnTriggerEnter (Collider player)
+    // Actually seen on UI.
+    private string outputString = null;
+    private int i = -1;
+    private bool done = false;
+    private bool triggered = false;
+
+    // Update is called once per frame
+    void Update()
+    {
+        while(!triggered)
+        {
+
+        }
+
+        if (!done)
+        {
+            HUDtext.text = Typewrite(inputText.text);
+        }
+    }
+
+    void OnTriggerEnter (Collider player)
     {
         if (player.gameObject.tag == "Player")
         {
@@ -25,10 +40,20 @@ public class SputnikOnTrigger : MonoBehaviour {
 
     IEnumerator Wait()
     {
-        //yield return new WaitForSeconds(5);
-
-        HUDText.text = "Text changed";
+        HUDtext.text = "Text changed";
         yield return new WaitForSeconds(5);
 
+    }
+
+    private string Typewrite(string text)
+    {
+        i++;
+        char[] characterArray = text.ToCharArray();
+        outputString = outputString + characterArray[i].ToString();
+        if (i == (characterArray.Length - 1))
+        {
+            done = true;
+        }
+        return outputString;
     }
 }
