@@ -6,25 +6,17 @@ using UnityEngine.UI;
 public class SputnikOnTrigger : MonoBehaviour {
 
     public Text HUDtext;
-    public Text inputText;
 
-    // Actually seen on UI.
-    private string outputString = null;
-    private int i = -1;
-    private bool done = false;
     private bool triggered = false;
 
-    // Update is called once per frame
     void Update()
     {
-        while(!triggered)
+        if (triggered)
         {
-
-        }
-
-        if (!done)
+            HUDtext.gameObject.SetActive(true);
+        } else
         {
-            HUDtext.text = Typewrite(inputText.text);
+            HUDtext.gameObject.SetActive(false);
         }
     }
 
@@ -33,27 +25,18 @@ public class SputnikOnTrigger : MonoBehaviour {
         if (player.gameObject.tag == "Player")
         {
             Debug.Log("player collided with sputnik");
-
-            StartCoroutine("Wait");
+            triggered = true;
         }
     }
 
-    IEnumerator Wait()
+    void OnTriggerExit (Collider player)
     {
-        HUDtext.text = "Text changed";
-        yield return new WaitForSeconds(5);
-
-    }
-
-    private string Typewrite(string text)
-    {
-        i++;
-        char[] characterArray = text.ToCharArray();
-        outputString = outputString + characterArray[i].ToString();
-        if (i == (characterArray.Length - 1))
+        if (player.gameObject.tag == "Player")
         {
-            done = true;
+            triggered = false;
         }
-        return outputString;
     }
+
+
+
 }
