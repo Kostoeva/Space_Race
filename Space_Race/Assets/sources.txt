@@ -8,5 +8,5 @@ laika-crop: https://www.youtube.com/watch?v=77b7965hx8Y
 explorer: https://www.youtube.com/watch?v=ShOMrKGyLgM
 luna3-image: https://moon.nasa.gov/resources/26/first-photo-of-the-lunar-farside/
 moscow: https://catalog.archives.gov/id/595264
-
+shepard: https://www.nasa.gov/audience/foreducators/spacesuits/historygallery/mer-may61.html
 
