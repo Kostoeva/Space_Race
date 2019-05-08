@@ -5,5 +5,5 @@ laika: https://twitter.com/EmbassyofRussia/status/926336838729691136/photo/1?ref
 laika-2: https://www.spaceanswers.com/space-exploration/heroes-of-space-laika-the-space-dog/
 sputnik-2: https://fineartamerica.com/featured/model-of-sputnik-2-babak-tafreshi.html?product=poster
 laika-crop: https://www.youtube.com/watch?v=77b7965hx8Y
-
+explorer: https://www.youtube.com/watch?v=ShOMrKGyLgM
 
