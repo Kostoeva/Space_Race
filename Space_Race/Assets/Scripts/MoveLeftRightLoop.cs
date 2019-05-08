@@ -8,6 +8,7 @@ public class MoveLeftRightLoop : MonoBehaviour {
     public int minValue = -15; 
     float currentValue = 0; 
     int direction = 1;
+    private bool triggered = false;
 
     // Use this for initialization
     void Start () {
@@ -16,17 +17,31 @@ public class MoveLeftRightLoop : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        currentValue += Time.deltaTime * direction; 
-        if (currentValue >= maxValue)
+        if (!triggered)
         {
-            direction *= -1;
-            currentValue = maxValue;
+            currentValue += Time.deltaTime * direction;
+            if (currentValue >= maxValue)
+            {
+                direction *= -1;
+                currentValue = maxValue;
+            }
+            else if (currentValue <= minValue)
+            {
+                direction *= -1;
+                currentValue = minValue;
+            }
+            transform.position = new Vector3(currentValue, transform.position.y, transform.position.z);
         }
-        else if (currentValue <= minValue)
-        {
-            direction *= -1;
-            currentValue = minValue;
-        }
-        transform.position = new Vector3(currentValue, transform.position.y, transform.position.z);
+
     }
+
+    void OnTriggerEnter(Collider player)
+    {
+        if (player.gameObject.tag == "Player")
+        {
+            Debug.Log("player collided with sputnik");
+            triggered = true;
+        }
+    }
+
 }
