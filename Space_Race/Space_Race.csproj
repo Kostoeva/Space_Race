@@ -262,9 +262,9 @@
     <Compile Include="Assets\Scripts\CustomGIF.cs" />
     <Compile Include="Assets\Scripts\FlyCam.cs" />
     <Compile Include="Assets\Scripts\OnCollisionPlayAudio.cs" />
+    <Compile Include="Assets\Scripts\OnTriggerDisplayHUDText.cs" />
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\ScrollText.cs" />
-    <Compile Include="Assets\Scripts\SputnikOnTrigger.cs" />
     <Compile Include="Assets\Scripts\StarField.cs" />
     <Compile Include="Assets\Scripts\TypewriterUI.cs" />
     <Compile Include="Assets\Simple Scene Fade Load System\Demo (You don&apos;t have to import this folder)\DemoScript.cs" />
