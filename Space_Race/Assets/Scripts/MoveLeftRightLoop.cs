@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MoveLeftRightLoop : MonoBehaviour {
 
-    int maxValue = 15; 
-    int minValue = -15; 
+    public int maxValue = 15; 
+    public int minValue = -15; 
     float currentValue = 0; 
     int direction = 1;
 
