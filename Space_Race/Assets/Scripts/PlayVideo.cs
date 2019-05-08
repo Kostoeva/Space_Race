@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayVideo : MonoBehaviour {
 
     public GameObject videoPlayer;
-    public int timeTillStop;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +22,6 @@ public class PlayVideo : MonoBehaviour {
             Debug.Log("player collided with Gagarin");
             // Start video.
             videoPlayer.SetActive(true);
-            Destroy(videoPlayer, timeTillStop);
         }
     }
 }

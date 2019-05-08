@@ -259,6 +259,7 @@
     <Compile Include="Assets\Outside_Resources\MagicParticlesLite\Script.cs" />
     <Compile Include="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\script\skyboxspace_demo_v1.cs" />
     <Compile Include="Assets\Outside_Resources\Stagit\SkyboxEarthPlanets\script\skyboxspace_mouselook_v1.cs" />
+    <Compile Include="Assets\Scripts\CustomGIF.cs" />
     <Compile Include="Assets\Scripts\FlyCam.cs" />
     <Compile Include="Assets\Scripts\PlayVideo.cs" />
     <Compile Include="Assets\Scripts\ScrollText.cs" />

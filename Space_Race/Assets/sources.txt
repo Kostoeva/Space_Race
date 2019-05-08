@@ -1,2 +1,9 @@
 gagarin-larger: https://www.youtube.com/watch?v=CGQ1ZAQJzY8
 gagarin-1-audio: https://www.youtube.com/watch?v=Wyrj0ibxt8c
+laika-stamp: https://www.smithsonianmag.com/smithsonian-institution/sad-story-laika-space-dog-and-her-one-way-trip-orbit-1-180968728/
+laika: https://twitter.com/EmbassyofRussia/status/926336838729691136/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E926336838729691136&ref_url=https%3A%2F%2Fsputniknews.com%2Frussia%2F201711031058792406-sputnik-laika-launch-space%2F
+laika-2: https://www.spaceanswers.com/space-exploration/heroes-of-space-laika-the-space-dog/
+sputnik-2: https://fineartamerica.com/featured/model-of-sputnik-2-babak-tafreshi.html?product=poster
+laika-crop: https://www.youtube.com/watch?v=77b7965hx8Y
+
+
